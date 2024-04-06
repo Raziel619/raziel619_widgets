@@ -55,9 +55,9 @@ class _MyAppState extends State<MyApp> {
         body: Column(
           children: [
             Center(
-              child: Text('Running on: $_platformVersion\n'),
-            ),
-            Raziel619StoreButton()
+                child: Raziel619StoreButton(
+              height: 60,
+            ))
           ],
         ),
       ),
