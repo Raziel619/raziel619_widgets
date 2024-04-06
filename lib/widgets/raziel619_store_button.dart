@@ -23,7 +23,7 @@ class Raziel619StoreButton extends StatelessWidget {
         },
         child: Image(
             height: height,
-            image: AssetImage('assets/icons/logo.png',
+            image: const AssetImage('assets/icons/logo.png',
                 package: "raziel619_widgets")));
   }
 }
